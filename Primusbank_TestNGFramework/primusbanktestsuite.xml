@@ -1,0 +1,25 @@
+<suite name = "primusbanktestsuite"> 
+<test name = "AdminloginTest"> 
+
+<parameter name ="uid" value = "Admin"> </parameter>
+<parameter name ="pwd" value = "Admin"> </parameter>
+
+<classes>
+<class name = "primusbank.tests.AdminloginTest"> </class>
+
+</classes>
+</test>
+
+<test name = "Bankerlogintest"> 
+
+<parameter name ="bname" value = "Amerpet"> </parameter>
+<parameter name ="uid" value = "Richards"> </parameter>
+<parameter name ="pwd" value = "demo"> </parameter>
+
+<classes>
+<class name = "primusbank.tests.Bankerlogintest"> </class>
+
+</classes>
+</test>
+
+</suite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [primusbanktestsuite]">
+  <parameter name="uid" value="Richards"/>
+  <parameter name="bname" value="Amerpet"/>
+  <parameter name="pwd" value="demo"/>
+  <test name="Bankerlogintest(failed)">
+    <parameter name="uid" value="Richards"/>
+    <parameter name="bname" value="Amerpet"/>
+    <parameter name="pwd" value="demo"/>
+    <classes>
+      <class name="primusbank.tests.Bankerlogintest">
+        <methods>
+          <include name="checkBankerlogin" invocation-numbers="0"/>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- primusbank.tests.Bankerlogintest -->
+      <class name="primusbank.tests.AdminloginTest">
+        <methods>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- primusbank.tests.AdminloginTest -->
+    </classes>
+  </test> <!-- Bankerlogintest(failed) -->
+</suite> <!-- Failed suite [primusbanktestsuite] -->
